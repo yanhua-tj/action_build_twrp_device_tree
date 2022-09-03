@@ -10,7 +10,7 @@ on:
       IMG_URL:
         description: 'IMG_URL'
         required: true
-        default: 'https://github.com/Xpsoted/Action-Recovery-builder/releases/download/1404192362/recovery.img'
+        default: 'https://github.com/yanhua-tj/action_build_twrp_device_tree/releases/download/v1/boot.img'
 
 jobs:
   build:
