@@ -10,12 +10,12 @@ on:
       IMG_URL:
         description: 'IMG_URL'
         required: true
-        default: 'https://github.com/yanhua-tj/action_build_twrp_device_tree/releases/download/v1/boot.img'
+        default: 'https://github.com/yanhua-tj/action_build_twrp_device_tree/releases/download/k73/recovery.img'
 
 jobs:
   build:
     if: github.event.repository.owner.id == github.event.sender.id
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     
     steps:
     - name: Check Out
